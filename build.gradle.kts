@@ -23,7 +23,17 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+    // Cloud
     implementation("org.springframework.cloud:spring-cloud-starter-sleuth")
+
+    // Reactive Feign
+    implementation("com.playtika.reactivefeign:feign-reactor-webclient:2.0.31")
+    implementation("com.playtika.reactivefeign:feign-reactor-spring-configuration:2.0.31")
+
+    // Logging
+    implementation("io.github.microutils:kotlin-logging-jvm:2.0.3")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
